@@ -4,6 +4,22 @@ This repository contains implementations of selected advanced tasks for the Deve
 
 ---
 
+## ✅ Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API  
+
+**Objective:**  
+Build a reusable and production-ready machine learning pipeline for predicting customer churn.  
+
+**Dataset:**  
+Telco Churn Dataset.  
+
+**Approach:**  
+1. Implemented **data preprocessing** (scaling, encoding) using `Pipeline`.  
+2. Trained models including **Logistic Regression** and **Random Forest**.  
+3. Applied **GridSearchCV** for hyperparameter tuning.  
+4. Exported the complete pipeline with **joblib** for deployment.  
+
+---
+
 ## ✅ Task 3: Multimodal ML – Housing Price Prediction Using Images + Tabular Data  
 
 **Objective:**  
@@ -56,6 +72,7 @@ Free-text Support Ticket Dataset.
 
 ## 📊 Results  
 
+- **Task 2:** Exported reusable ML pipeline with tuned models.  
 - **Task 3:** Reported MAE and RMSE for multimodal model vs. baseline.  
 - **Task 4:** Chatbot successfully retrieved context-aware answers with memory + vector store.  
 - **Task 5:** Achieved higher accuracy with few-shot/fine-tuned methods compared to zero-shot.  
